@@ -5,11 +5,12 @@ mybd = client.dbposts
 mycol = mybd.posts
 
 post1 = {
-    "title": "FastAPI",
-    "category": "Backend",
+    "title": "Pandas",
+    "category": "Data Analysis",
+    "level": "Intermediary",
     "author": {
-        "name": "John",
-        "email": "john@gmail.com"
+        "name": "Joseph",
+        "email": "joseph@gmail.com"
     }
 }
 
