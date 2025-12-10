@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 client = MongoClient()
 mybd = client.dbposts
-mycol = mydb.posts 
+mycol = mybd.posts
 
 post1 = {
     "title": "FastAPI",
